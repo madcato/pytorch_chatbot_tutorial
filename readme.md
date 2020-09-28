@@ -8,8 +8,10 @@ This project was made follogin this [tutorial from pytorch web by Matthew Inkawh
 2. Open terminal and change directory to the base of this repository
 3. Download data with:
 
-		wget http://www.cs.cornell.edu/~cristian/data/cornell_movie_dialogs_corpus.zip -O data/cornell_movie_dialogs_corpus.zip
+		$ wget http://www.cs.cornell.edu/~cristian/data/cornell_movie_dialogs_corpus.zip -O data/cornell_movie_dialogs_corpus.zip
 4. Unzip it:
 
-		cd data && unzip cornell_movie_dialogs_corpus.zip
-5. 
+		$ cd data && unzip cornell_movie_dialogs_corpus.zip
+5. Run
+
+		$ python3 train.py
